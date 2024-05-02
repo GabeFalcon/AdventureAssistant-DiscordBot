@@ -204,7 +204,7 @@ const commands = [
     },
     {
         name: "condition",
-        description: "Display informatiion about a condition",
+        description: "Display information about a condition",
         options: [
             {
                 name: 'type',

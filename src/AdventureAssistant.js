@@ -1616,7 +1616,7 @@ client.on('interactionCreate', async interaction => {
         const maxCommands = Math.min(commands.length, 25);
         for (let i = 0; i < maxCommands; i++) {
             commandsEmbed.fields.push({
-                name: `\`\`\`\n•/${commands[i].name}\n\`\`\``,
+                name: `\`\`•/${commands[i].name}\n\`\``,
                 value: commands[i].description,
                 inline: false,
             });
